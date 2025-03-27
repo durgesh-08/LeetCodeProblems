@@ -64,6 +64,5 @@ public class MinimumDifferenceOfKScores {
     public static void main(String[] args) {
         var numbers = new ArrayList<>(List.of(90));
         System.out.println(minimumDifference(numbers.stream().mapToInt(Integer::intValue).toArray(), 1));
-
     }
 }
